@@ -5,8 +5,46 @@
 */
 
 :root.theme-light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --bg-image-page: url(../images/cover-image-light.png);
+  --bg-color-page: #FFF1F7;
+  
+  --text-color: #353430;
+  --text-color-rec: #ff006f;
+  --accent-color-decorated-zone:#353430;
+  --accent-color-butt_hover:rgba(50, 49, 45, 0.4);
+  --accent-color-butt_focus:#353430;
+  --accent-color-butt_active:#353430;
+  --text-color-theme-menu:#353430;
+  --header__title-color:#FFC2E6;
+  --accent-color:#FF8DCB;
+  --subtitle-color:#000028;
+  --color-main_section-title:#353430;
+}
+
+.theme-light .rec {
+  display: none;
+}
+
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+   --bg-image-page: url(../images/cover-image-light.png);
+  --bg-color-page: #FFF1F7;
+  --text-color: #353430;
+  --text-color-rec: #ff006f;
+  --accent-color-decorated-zone:#353430;
+  --accent-color-butt_hover:rgba(50, 49, 45, 0.4);
+  --accent-color-butt_focus:#353430;
+  --accent-color-butt_active:#353430;
+  --text-color-theme-menu:#353430;
+  --header__title-color:#FFC2E6;
+  --accent-color:#FF8DCB;
+  --subtitle-color:#000028;
+  --color-main_section-title:#FF8DCB;
+  }
+
+.theme-auto .rec {
+  display: none;
+}
 }
