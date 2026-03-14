@@ -339,7 +339,7 @@
 .footer {
   display: grid;
   margin-top: 50px;
-  
+  min-height: 100vh;
 }
 
 .footer_title {
@@ -360,5 +360,22 @@
 @media (width >= 1024px) {
   .footer_title {
     font-size: var(--header__title-fs-desktop);
+  }
+}
+
+.decorated-zone {
+  position: relative;
+  min-block-size: 97vh;
+}
+
+@media (width >= 768px) {
+  .decorated-zone {
+    min-block-size: 96vh;
+  }
+}
+
+@media (width >= 1024px) {
+  .decorated-zone {
+    min-block-size: 95vh;
   }
 }
