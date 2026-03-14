@@ -250,7 +250,7 @@
   }
 }
 
-@media (width >= 768px) {
+@media (width >= 1024px) {
   .main_section {
     grid-template-columns: 315px 1fr;
   }
@@ -339,6 +339,7 @@
 .footer {
   display: grid;
   margin-top: 50px;
+  
 }
 
 .footer_title {
